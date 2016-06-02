@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "UIColor+expanded.h"
+#import "UIImage+Common.h"
+#import "ZWBaseNavigationController.h"
+#import "ZWRootViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +21,47 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+
+    //根控制器
+    ZWRootViewController *rootViewController = [[ZWRootViewController alloc]init];
+    ZWBaseNavigationController *nav = [[ZWBaseNavigationController alloc ]initWithRootViewController:rootViewController];
+    
+    //设置导航条样式
+    
+    self.window.rootViewController  = nav;
+    
+    self.window.backgroundColor     = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
+}
+
+#pragma mark - setNavStyle
+-(void)setNavStyle
+{
+    //设置Nav的背景色和title色
+    UINavigationBar *navigationBarAppearance = [UINavigationBar appearance];
+    NSDictionary *textAttributes = nil;
+    if (NSFoundationVersionNumber > NSFoundationVersionNumber_iOS_6_1) {
+        [navigationBarAppearance setTintColor:[UIColor whiteColor]];        textAttributes = @{
+                           NSFontAttributeName: [UIFont boldSystemFontOfSize:19],
+                           NSForegroundColorAttributeName: [UIColor blackColor],
+                           };
+    } else {
+#if __IPHONE_OS_VERSION_MIN_REQUIRED < __IPHONE_7_0
+        [[UISearchBar appearance] setBackgroundImage:[UIImage imageWithColor:[UIColor colorWithHexString:@"0xe5e5e5"]]];
+        
+        textAttributes = @{
+                           UITextAttributeFont: [UIFont boldSystemFontOfSize:19],
+                           UITextAttributeTextColor: [UIColor whiteColor],
+                           UITextAttributeTextShadowColor: [UIColor clearColor],
+                           UITextAttributeTextShadowOffset: [NSValue valueWithUIOffset:UIOffsetZero],
+                           };
+#endif
+    }
+    [navigationBarAppearance setBackgroundImage:[UIImage imageWithColor:[UIColor colorWithHexString:@"0xFFFFFF"]] forBarMetrics:UIBarMetricsDefault];
+    [navigationBarAppearance setTitleTextAttributes:textAttributes];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

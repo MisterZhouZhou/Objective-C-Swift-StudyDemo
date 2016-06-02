@@ -1,0 +1,29 @@
+//
+//  ZWPrefixHeader.pch
+//  Objective-C-Demo
+//
+//  Created by rayootech on 16/6/2.
+//  Copyright © 2016年 rayootech. All rights reserved.
+//
+
+#ifndef ZWPrefixHeader_pch
+#define ZWPrefixHeader_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import "Masonry.h"
+
+#define AC_Assert(condition) NSAssert(condition, ([NSString stringWithFormat:@"file name = %s ---> function name = %s at line: %d", __FILE__, __FUNCTION__, __LINE__]));
+
+
+#define KScreen_bounds [UIScreen mainScreen].bounds
+#define KScreen_Width  [UIScreen mainScreen].bounds.size.width
+#define KScreen_Height [UIScreen mainScreen].bounds.size.height
+
+
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* ZWPrefixHeader_pch */
