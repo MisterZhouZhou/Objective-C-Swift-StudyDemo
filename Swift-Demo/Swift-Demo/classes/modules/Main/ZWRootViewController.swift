@@ -13,7 +13,7 @@ class ZWRootViewController: ZWBaseViewController ,UITableViewDataSource,UITableV
     //UITableView
     lazy var mainTableView: UITableView = {
         
-        let tempTableView = UITableView (frame: self.view.bounds, style: UITableViewStyle.Plain)
+        let tempTableView = UITableView (frame: CGRectZero, style: UITableViewStyle.Plain)
         tempTableView.delegate = self
         tempTableView.dataSource = self
         return tempTableView
@@ -31,11 +31,33 @@ class ZWRootViewController: ZWBaseViewController ,UITableViewDataSource,UITableV
         //隐藏返回箭头
         self.leftItemHiden        = true
         
-        //添加UITableView 
+        //添加视图
+        self .addSubVies()
+        
+        //设置布局
+        self .layout()
+       
+    }
+    
+    //添加视图
+    func addSubVies ()
+    {
+        //添加UITableView
         self.view.addSubview(self.mainTableView)
         //去除底部多余线
         self.mainTableView.tableFooterView = UIView()
     }
+    
+    //设置布局
+    func layout()
+    {
+        self.mainTableView.snp_makeConstraints { (make) in
+            make.left.top.equalTo(self.view)
+            make.width.equalTo(self.view)
+            make.height.equalTo(self.view)
+        }
+    }
+    
     
     //UITableView DataSource ,Delegate
     func numberOfSectionsInTableView(tableView: UITableView) -> Int
