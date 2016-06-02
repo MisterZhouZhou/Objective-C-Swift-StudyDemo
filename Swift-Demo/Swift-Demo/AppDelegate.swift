@@ -16,6 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        //创建根控制器
+        let rootVC = ZWRootViewController()
+        
+        //初始化导航
+        let nav    = ZWBaseNavViewController(rootViewController: rootVC)
+        
+        //初始化window
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window?.backgroundColor    = UIColor.whiteColor()
+        self.window?.rootViewController = nav
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 

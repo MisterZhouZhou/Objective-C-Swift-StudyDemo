@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A60EBDA81D003B9700CEFDA1 /* ZWBaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A60EBDA71D003B9700CEFDA1 /* ZWBaseNavViewController.swift */; };
 		A6FF19A51CFFD05000362809 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF19A41CFFD05000362809 /* AppDelegate.swift */; };
-		A6FF19A71CFFD05000362809 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF19A61CFFD05000362809 /* ViewController.swift */; };
-		A6FF19AA1CFFD05000362809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FF19A81CFFD05000362809 /* Main.storyboard */; };
 		A6FF19AC1CFFD05000362809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6FF19AB1CFFD05000362809 /* Assets.xcassets */; };
 		A6FF19AF1CFFD05000362809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6FF19AD1CFFD05000362809 /* LaunchScreen.storyboard */; };
+		A6FF19FE1D001D0600362809 /* ZWRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF19FD1D001D0600362809 /* ZWRootViewController.swift */; };
+		A6FF1A011D0020B400362809 /* ZWBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FF1A001D0020B400362809 /* ZWBaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A60EBDA71D003B9700CEFDA1 /* ZWBaseNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZWBaseNavViewController.swift; sourceTree = "<group>"; };
 		A6FF19A11CFFD05000362809 /* Swift-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6FF19A41CFFD05000362809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6FF19A61CFFD05000362809 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A6FF19A91CFFD05000362809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6FF19AB1CFFD05000362809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6FF19AE1CFFD05000362809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6FF19B01CFFD05000362809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6FF19FD1D001D0600362809 /* ZWRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZWRootViewController.swift; sourceTree = "<group>"; };
+		A6FF1A001D0020B400362809 /* ZWBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZWBaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A60EBDA91D003F1300CEFDA1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A60EBDAA1D003F2700CEFDA1 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		A60EBDAB1D003F3A00CEFDA1 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		A6FF19981CFFD05000362809 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +77,50 @@
 		A6FF19A31CFFD05000362809 /* Swift-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				A6FF19FA1D001B5C00362809 /* classes */,
 				A6FF19A41CFFD05000362809 /* AppDelegate.swift */,
-				A6FF19A61CFFD05000362809 /* ViewController.swift */,
-				A6FF19A81CFFD05000362809 /* Main.storyboard */,
 				A6FF19AB1CFFD05000362809 /* Assets.xcassets */,
 				A6FF19AD1CFFD05000362809 /* LaunchScreen.storyboard */,
 				A6FF19B01CFFD05000362809 /* Info.plist */,
 			);
 			path = "Swift-Demo";
+			sourceTree = "<group>";
+		};
+		A6FF19FA1D001B5C00362809 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				A60EBDAB1D003F3A00CEFDA1 /* Util */,
+				A60EBDAA1D003F2700CEFDA1 /* Vender */,
+				A60EBDA91D003F1300CEFDA1 /* Category */,
+				A6FF19FB1D001B6E00362809 /* modules */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		A6FF19FB1D001B6E00362809 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				A6FF19FF1D001EBC00362809 /* Base */,
+				A6FF19FC1D001B8D00362809 /* Main */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		A6FF19FC1D001B8D00362809 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A6FF19FD1D001D0600362809 /* ZWRootViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A6FF19FF1D001EBC00362809 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A6FF1A001D0020B400362809 /* ZWBaseViewController.swift */,
+				A60EBDA71D003B9700CEFDA1 /* ZWBaseNavViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +183,6 @@
 			files = (
 				A6FF19AF1CFFD05000362809 /* LaunchScreen.storyboard in Resources */,
 				A6FF19AC1CFFD05000362809 /* Assets.xcassets in Resources */,
-				A6FF19AA1CFFD05000362809 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +193,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6FF19A71CFFD05000362809 /* ViewController.swift in Sources */,
+				A60EBDA81D003B9700CEFDA1 /* ZWBaseNavViewController.swift in Sources */,
 				A6FF19A51CFFD05000362809 /* AppDelegate.swift in Sources */,
+				A6FF19FE1D001D0600362809 /* ZWRootViewController.swift in Sources */,
+				A6FF1A011D0020B400362809 /* ZWBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A6FF19A81CFFD05000362809 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A6FF19A91CFFD05000362809 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A6FF19AD1CFFD05000362809 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,6 +338,7 @@
 				A6FF19B51CFFD05000362809 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
