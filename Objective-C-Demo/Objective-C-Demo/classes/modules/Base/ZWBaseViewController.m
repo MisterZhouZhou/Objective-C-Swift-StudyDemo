@@ -37,7 +37,9 @@
 
 -(void)setLeftItemHiden:(BOOL)leftItemHiden
 {
-   self.navigationItem.leftBarButtonItem = nil;
+    if (leftItemHiden == YES) {
+        self.navigationItem.leftBarButtonItem = nil;
+    }
 }
 
 #pragma mark - 返回事件

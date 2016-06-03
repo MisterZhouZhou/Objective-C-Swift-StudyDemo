@@ -1,5 +1,5 @@
 //
-//  ZWRootViewController.h
+//  ZWAlertViewController.h
 //  Objective-C-Demo
 //
 //  Created by rayootech on 16/6/2.
@@ -8,6 +8,6 @@
 
 #import "ZWBaseTableViewController.h"
 
-@interface ZWRootViewController : ZWBaseTableViewController
+@interface ZWAlertViewController : ZWBaseTableViewController
 
 @end

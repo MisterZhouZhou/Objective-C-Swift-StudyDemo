@@ -40,7 +40,7 @@
             NSLog(@"不包含key=%@的属性",key);
         }
     }];
-    
+     
      [self pushViewController:instance animated:animate];
 }
 

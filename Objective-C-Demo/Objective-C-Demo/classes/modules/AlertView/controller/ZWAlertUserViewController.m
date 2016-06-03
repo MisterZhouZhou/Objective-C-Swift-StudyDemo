@@ -1,42 +1,34 @@
 //
-//  ZWRootViewController.m
+//  ZWAlertUserViewController.m
 //  Objective-C-Demo
 //
-//  Created by rayootech on 16/6/2.
+//  Created by rayootech on 16/6/3.
 //  Copyright © 2016年 rayootech. All rights reserved.
 //
 
-#import "ZWRootViewController.h"
-
-@interface ZWRootViewController ()
+#import "ZWAlertUserViewController.h"
+#import "ZWUserAlertView.h"
+@interface ZWAlertUserViewController ()
 
 @end
 
-@implementation ZWRootViewController
+@implementation ZWAlertUserViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    //设置标题
-    self.title = @"功能列表";
+    self.title = @"类似系统的AlertView";
     
-    //隐藏返回键
-    [self setLeftItemHiden:YES];
+    ZWUserAlertView *alertView =[[ZWUserAlertView alloc]initWithTitle:@"提示"
+                    message:@"您已被禁言了，您已被禁言了，您已被禁言了，您已被禁言了，您已被禁言了，您已被禁言了" delegate:self sureTitle:@"确定" otherTitle:nil];
+    [alertView showInView:self.view];
     
-    //设置数据
-    [self setdata];
 }
 
 
-#pragma mark - data
-#pragma mark - 设置数据源
--(void)setdata
-{
-    self.dataSource = @[
-                        @{@"AlertView":@"ZWAlertViewController"}
-                        
-                        ];
+-(void)zwAlertViewClickAtButtonIndex:(NSInteger)buttonIndex{
+    NSLog(@"点击了确定%ld",(long)buttonIndex);
 }
 
 - (void)didReceiveMemoryWarning {

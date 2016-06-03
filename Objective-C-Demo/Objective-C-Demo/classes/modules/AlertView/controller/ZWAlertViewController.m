@@ -1,40 +1,41 @@
 //
-//  ZWRootViewController.m
+//  ZWAlertViewController.m
 //  Objective-C-Demo
 //
 //  Created by rayootech on 16/6/2.
 //  Copyright © 2016年 rayootech. All rights reserved.
 //
 
-#import "ZWRootViewController.h"
+#import "ZWAlertViewController.h"
 
-@interface ZWRootViewController ()
+
+@interface ZWAlertViewController ()
 
 @end
 
-@implementation ZWRootViewController
+@implementation ZWAlertViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    //设置标题
-    self.title = @"功能列表";
-    
+    self.title = @"AlertView功能列表";
+
     //隐藏返回键
-    [self setLeftItemHiden:YES];
+    [self setLeftItemHiden:NO];
     
     //设置数据
     [self setdata];
+    
 }
-
 
 #pragma mark - data
 #pragma mark - 设置数据源
 -(void)setdata
 {
     self.dataSource = @[
-                        @{@"AlertView":@"ZWAlertViewController"}
+                        @{@"AlertView绑定block":@"ZWAlertBlockViewController"},
+                        @{@"类似系统AlertView":@"ZWAlertUserViewController"}
                         
                         ];
 }
