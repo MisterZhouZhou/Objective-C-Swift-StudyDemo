@@ -1,42 +1,33 @@
 //
-//  ZWRootViewController.m
+//  ZWViewDragViewController.m
 //  Objective-C-Demo
 //
-//  Created by rayootech on 16/6/2.
+//  Created by rayootech on 16/6/4.
 //  Copyright © 2016年 rayootech. All rights reserved.
 //
 
-#import "ZWRootViewController.h"
+#import "ZWViewDragViewController.h"
+#import "ZWDragView.h"
 
-@interface ZWRootViewController ()
+@interface ZWViewDragViewController ()
 
 @end
 
-@implementation ZWRootViewController
+@implementation ZWViewDragViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
     //设置标题
-    self.title = @"功能列表";
+    self.title = @"拖拽View";
     
-    //隐藏返回键
-    [self setLeftItemHiden:YES];
+    //创建视图
+    ZWDragView *dragView=[[ZWDragView alloc]initWithFrame:CGRectMake(50, 100, 50, 50)];
+    dragView.img = [UIImage imageNamed:@"back"];
+    [self.view addSubview:dragView];
     
-    //设置数据
-    [self setdata];
-}
-
-
-#pragma mark - data
-#pragma mark - 设置数据源
--(void)setdata
-{
-    self.dataSource = @[
-                        @{@"AlertView":@"ZWAlertViewController"},
-                        @{@"view Demo":@"ZWViewListViewController"}
-                        ];
+    
 }
 
 - (void)didReceiveMemoryWarning {

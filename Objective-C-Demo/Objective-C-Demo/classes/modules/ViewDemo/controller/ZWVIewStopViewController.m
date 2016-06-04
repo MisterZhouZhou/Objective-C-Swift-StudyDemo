@@ -1,42 +1,31 @@
 //
-//  ZWRootViewController.m
+//  ZWVIewStopViewController.m
 //  Objective-C-Demo
 //
-//  Created by rayootech on 16/6/2.
+//  Created by rayootech on 16/6/5.
 //  Copyright © 2016年 rayootech. All rights reserved.
 //
 
-#import "ZWRootViewController.h"
-
-@interface ZWRootViewController ()
+#import "ZWVIewStopViewController.h"
+#import "ZWDragStopView.h"
+@interface ZWVIewStopViewController ()
 
 @end
 
-@implementation ZWRootViewController
+@implementation ZWVIewStopViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
     //设置标题
-    self.title = @"功能列表";
+    self.title = @"view的停靠";
     
-    //隐藏返回键
-    [self setLeftItemHiden:YES];
+    //创建视图
+    ZWDragStopView *dragView=[[ZWDragStopView alloc]initWithFrame:CGRectMake(50, 100, 50, 50)];
+    dragView.img = [UIImage imageNamed:@"back"];
+    [self.view addSubview:dragView];
     
-    //设置数据
-    [self setdata];
-}
-
-
-#pragma mark - data
-#pragma mark - 设置数据源
--(void)setdata
-{
-    self.dataSource = @[
-                        @{@"AlertView":@"ZWAlertViewController"},
-                        @{@"view Demo":@"ZWViewListViewController"}
-                        ];
 }
 
 - (void)didReceiveMemoryWarning {

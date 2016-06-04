@@ -1,43 +1,43 @@
 //
-//  ZWRootViewController.m
+//  ZWViewListViewController.m
 //  Objective-C-Demo
 //
-//  Created by rayootech on 16/6/2.
+//  Created by rayootech on 16/6/4.
 //  Copyright © 2016年 rayootech. All rights reserved.
 //
 
-#import "ZWRootViewController.h"
+#import "ZWViewListViewController.h"
 
-@interface ZWRootViewController ()
+@interface ZWViewListViewController ()
 
 @end
 
-@implementation ZWRootViewController
+@implementation ZWViewListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     
-    //设置标题
-    self.title = @"功能列表";
+    self.title = @"view 相关功能列表";
     
     //隐藏返回键
-    [self setLeftItemHiden:YES];
+    [self setLeftItemHiden:NO];
     
     //设置数据
     [self setdata];
 }
-
 
 #pragma mark - data
 #pragma mark - 设置数据源
 -(void)setdata
 {
     self.dataSource = @[
-                        @{@"AlertView":@"ZWAlertViewController"},
-                        @{@"view Demo":@"ZWViewListViewController"}
+                        @{@"拖拽View":@"ZWViewDragViewController"},
+                        @{@"View的停靠":@"ZWVIewStopViewController"},
+                        @{@"抽屉效果":@"ZWDrawerViewController"},
+                        @{@"进度条效果":@"ZWProcessViewController"}
                         ];
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

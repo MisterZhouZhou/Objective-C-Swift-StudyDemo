@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		A60EBE1C1D00819200CEFDA1 /* ZWAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A60EBE1B1D00819200CEFDA1 /* ZWAlertView.m */; };
 		A60EBE1F1D0081AE00CEFDA1 /* ZWAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A60EBE1E1D0081AE00CEFDA1 /* ZWAlertViewController.m */; };
+		A6DEA7B51D03328600FFDD2D /* ZWViewDragViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DEA7B21D03328600FFDD2D /* ZWViewDragViewController.m */; };
+		A6DEA7B61D03328600FFDD2D /* ZWViewListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DEA7B41D03328600FFDD2D /* ZWViewListViewController.m */; };
+		A6DEA7B91D03332500FFDD2D /* ZWProcessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DEA7B81D03332500FFDD2D /* ZWProcessViewController.m */; };
+		A6DEA7BD1D03341100FFDD2D /* ZWDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DEA7BC1D03341100FFDD2D /* ZWDragView.m */; };
+		A6DEA7C01D033D3700FFDD2D /* ZWDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DEA7BF1D033D3700FFDD2D /* ZWDrawerViewController.m */; };
+		A6DEA7C31D0343D800FFDD2D /* ZWVIewStopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DEA7C21D0343D800FFDD2D /* ZWVIewStopViewController.m */; };
+		A6DEA7C61D03441200FFDD2D /* ZWDragStopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DEA7C51D03441200FFDD2D /* ZWDragStopView.m */; };
+		A6DEA7C91D03508700FFDD2D /* ZWProcessView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DEA7C81D03508700FFDD2D /* ZWProcessView.m */; };
 		A6F5F7C41D018BCA00664D00 /* ZWAlertBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5F7C31D018BC900664D00 /* ZWAlertBlockViewController.m */; };
 		A6F5F7C71D018C7300664D00 /* ZWAlertUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5F7C61D018C7300664D00 /* ZWAlertUserViewController.m */; };
 		A6F5F7CA1D018CBA00664D00 /* ZWUserAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5F7C91D018CBA00664D00 /* ZWUserAlertView.m */; };
@@ -40,6 +48,22 @@
 		A60EBE1B1D00819200CEFDA1 /* ZWAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWAlertView.m; sourceTree = "<group>"; };
 		A60EBE1D1D0081AE00CEFDA1 /* ZWAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAlertViewController.h; sourceTree = "<group>"; };
 		A60EBE1E1D0081AE00CEFDA1 /* ZWAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWAlertViewController.m; sourceTree = "<group>"; };
+		A6DEA7B11D03328600FFDD2D /* ZWViewDragViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWViewDragViewController.h; sourceTree = "<group>"; };
+		A6DEA7B21D03328600FFDD2D /* ZWViewDragViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWViewDragViewController.m; sourceTree = "<group>"; };
+		A6DEA7B31D03328600FFDD2D /* ZWViewListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWViewListViewController.h; sourceTree = "<group>"; };
+		A6DEA7B41D03328600FFDD2D /* ZWViewListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWViewListViewController.m; sourceTree = "<group>"; };
+		A6DEA7B71D03332500FFDD2D /* ZWProcessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWProcessViewController.h; sourceTree = "<group>"; };
+		A6DEA7B81D03332500FFDD2D /* ZWProcessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWProcessViewController.m; sourceTree = "<group>"; };
+		A6DEA7BB1D03341100FFDD2D /* ZWDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDragView.h; sourceTree = "<group>"; };
+		A6DEA7BC1D03341100FFDD2D /* ZWDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDragView.m; sourceTree = "<group>"; };
+		A6DEA7BE1D033D3700FFDD2D /* ZWDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDrawerViewController.h; sourceTree = "<group>"; };
+		A6DEA7BF1D033D3700FFDD2D /* ZWDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDrawerViewController.m; sourceTree = "<group>"; };
+		A6DEA7C11D0343D800FFDD2D /* ZWVIewStopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWVIewStopViewController.h; sourceTree = "<group>"; };
+		A6DEA7C21D0343D800FFDD2D /* ZWVIewStopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWVIewStopViewController.m; sourceTree = "<group>"; };
+		A6DEA7C41D03441200FFDD2D /* ZWDragStopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWDragStopView.h; sourceTree = "<group>"; };
+		A6DEA7C51D03441200FFDD2D /* ZWDragStopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWDragStopView.m; sourceTree = "<group>"; };
+		A6DEA7C71D03508700FFDD2D /* ZWProcessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWProcessView.h; sourceTree = "<group>"; };
+		A6DEA7C81D03508700FFDD2D /* ZWProcessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWProcessView.m; sourceTree = "<group>"; };
 		A6F5F7C21D018BC900664D00 /* ZWAlertBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAlertBlockViewController.h; sourceTree = "<group>"; };
 		A6F5F7C31D018BC900664D00 /* ZWAlertBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWAlertBlockViewController.m; sourceTree = "<group>"; };
 		A6F5F7C51D018C7300664D00 /* ZWAlertUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAlertUserViewController.h; sourceTree = "<group>"; };
@@ -139,6 +163,45 @@
 			path = controller;
 			sourceTree = "<group>";
 		};
+		A6DEA7A91D03309D00FFDD2D /* ViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A6DEA7BA1D0333F900FFDD2D /* view */,
+				A6DEA7B01D03325100FFDD2D /* controller */,
+			);
+			path = ViewDemo;
+			sourceTree = "<group>";
+		};
+		A6DEA7B01D03325100FFDD2D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6DEA7BE1D033D3700FFDD2D /* ZWDrawerViewController.h */,
+				A6DEA7BF1D033D3700FFDD2D /* ZWDrawerViewController.m */,
+				A6DEA7B11D03328600FFDD2D /* ZWViewDragViewController.h */,
+				A6DEA7B21D03328600FFDD2D /* ZWViewDragViewController.m */,
+				A6DEA7B31D03328600FFDD2D /* ZWViewListViewController.h */,
+				A6DEA7B41D03328600FFDD2D /* ZWViewListViewController.m */,
+				A6DEA7B71D03332500FFDD2D /* ZWProcessViewController.h */,
+				A6DEA7B81D03332500FFDD2D /* ZWProcessViewController.m */,
+				A6DEA7C11D0343D800FFDD2D /* ZWVIewStopViewController.h */,
+				A6DEA7C21D0343D800FFDD2D /* ZWVIewStopViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A6DEA7BA1D0333F900FFDD2D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A6DEA7BB1D03341100FFDD2D /* ZWDragView.h */,
+				A6DEA7BC1D03341100FFDD2D /* ZWDragView.m */,
+				A6DEA7C41D03441200FFDD2D /* ZWDragStopView.h */,
+				A6DEA7C51D03441200FFDD2D /* ZWDragStopView.m */,
+				A6DEA7C71D03508700FFDD2D /* ZWProcessView.h */,
+				A6DEA7C81D03508700FFDD2D /* ZWProcessView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		A6FF19751CFFD03900362809 = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +253,7 @@
 		A6FF19B71CFFD2E900362809 /* modules */ = {
 			isa = PBXGroup;
 			children = (
+				A6DEA7A91D03309D00FFDD2D /* ViewDemo */,
 				A60EBE171D00810000CEFDA1 /* AlertView */,
 				A6FF19F91D00198300362809 /* 聊天界面 */,
 				A6FF19F81D00196C00362809 /* 地图 */,
@@ -375,11 +439,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6FF19F41D0016CC00362809 /* MASViewConstraint.m in Sources */,
+				A6DEA7C01D033D3700FFDD2D /* ZWDrawerViewController.m in Sources */,
 				A6F5F7CD1D018E2900664D00 /* ZWBaseTableViewController.m in Sources */,
 				A6FF19D01D00120000362809 /* UINavigationController+ZWTurnPush.m in Sources */,
 				A6FF19F31D0016CC00362809 /* MASViewAttribute.m in Sources */,
 				A6F5F7C71D018C7300664D00 /* ZWAlertUserViewController.m in Sources */,
+				A6DEA7BD1D03341100FFDD2D /* ZWDragView.m in Sources */,
 				A6FF19CD1D0011F500362809 /* ZWTurnControllerProducter.m in Sources */,
+				A6DEA7C61D03441200FFDD2D /* ZWDragStopView.m in Sources */,
+				A6DEA7B91D03332500FFDD2D /* ZWProcessViewController.m in Sources */,
+				A6DEA7B51D03328600FFDD2D /* ZWViewDragViewController.m in Sources */,
 				A6FF19861CFFD03900362809 /* AppDelegate.m in Sources */,
 				A6FF19C31CFFD7F000362809 /* ZWRootViewController.m in Sources */,
 				A60EBE1C1D00819200CEFDA1 /* ZWAlertView.m in Sources */,
@@ -390,13 +459,16 @@
 				A6F5F7CA1D018CBA00664D00 /* ZWUserAlertView.m in Sources */,
 				A6FF19F21D0016CC00362809 /* MASLayoutConstraint.m in Sources */,
 				A6FF19F01D0016CC00362809 /* MASConstraint.m in Sources */,
+				A6DEA7C91D03508700FFDD2D /* ZWProcessView.m in Sources */,
 				A6FF19831CFFD03900362809 /* main.m in Sources */,
 				A6FF19BD1CFFD4ED00362809 /* ZWBaseViewController.m in Sources */,
 				A6FF19F51D0016CC00362809 /* NSArray+MASAdditions.m in Sources */,
+				A6DEA7B61D03328600FFDD2D /* ZWViewListViewController.m in Sources */,
 				A6FF19F61D0016CC00362809 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				A6FF19D31D00148300362809 /* UIColor+expanded.m in Sources */,
 				A6FF19D61D0014C900362809 /* UIImage+Common.m in Sources */,
 				A6F5F7C41D018BCA00664D00 /* ZWAlertBlockViewController.m in Sources */,
+				A6DEA7C31D0343D800FFDD2D /* ZWVIewStopViewController.m in Sources */,
 				A6FF19C01CFFD71000362809 /* ZWBaseNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

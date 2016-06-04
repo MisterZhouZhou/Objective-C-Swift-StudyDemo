@@ -22,6 +22,9 @@
 #define KScreen_Height [UIScreen mainScreen].bounds.size.height
 
 
+// 宏里面的#，会自动把后面的参数变成C语言的字符串
+#define keyPath(objc,keyPath) @(((void)objc.keyPath,#keyPath))
+
 #endif
 
 // Include any system framework and library headers here that should be included in all compilation units.
