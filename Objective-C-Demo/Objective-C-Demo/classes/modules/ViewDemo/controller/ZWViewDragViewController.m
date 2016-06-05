@@ -11,6 +11,8 @@
 
 @interface ZWViewDragViewController ()
 
+/*ZWDragView*/
+@property(nonatomic,strong)ZWDragView *dragView;
 @end
 
 @implementation ZWViewDragViewController
@@ -22,12 +24,31 @@
     //设置标题
     self.title = @"拖拽View";
     
+    //添加子视图
+    [self addChild];
+    
+    //布局
+    [self layout];
+    
+}
+
+#pragma mark - 添加子视图
+-(void)addChild
+{
     //创建视图
-    ZWDragView *dragView=[[ZWDragView alloc]initWithFrame:CGRectMake(50, 100, 50, 50)];
-    dragView.img = [UIImage imageNamed:@"back"];
+    ZWDragView *dragView=[[ZWDragView alloc]initWithFrame:CGRectZero];
+    dragView.img  = [UIImage imageNamed:@"back"];
     [self.view addSubview:dragView];
-    
-    
+    self.dragView = dragView;
+}
+
+-(void)layout
+{
+    [self.dragView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(50);
+        make.top.mas_equalTo(100);
+        make.width.and.height.mas_equalTo(50);
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

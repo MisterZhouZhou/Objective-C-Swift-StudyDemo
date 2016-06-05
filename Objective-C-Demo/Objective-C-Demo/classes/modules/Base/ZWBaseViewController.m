@@ -33,6 +33,9 @@
     
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    //默认导航不隐藏
+    self.leftItemHiden = NO;
 }
 
 -(void)setLeftItemHiden:(BOOL)leftItemHiden

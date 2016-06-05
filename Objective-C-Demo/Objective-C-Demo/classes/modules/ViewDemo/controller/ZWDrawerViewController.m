@@ -30,9 +30,6 @@
     //设置标题
     self.title = @"抽屉效果";
     
-    //隐藏返回键
-    [self setLeftItemHiden:NO];
-    
     // 添加子控件
     [self setUpChildView];
     

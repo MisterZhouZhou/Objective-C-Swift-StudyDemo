@@ -19,9 +19,6 @@
     
     self.title = @"view 相关功能列表";
     
-    //隐藏返回键
-    [self setLeftItemHiden:NO];
-    
     //设置数据
     [self setdata];
 }
@@ -34,7 +31,8 @@
                         @{@"拖拽View":@"ZWViewDragViewController"},
                         @{@"View的停靠":@"ZWVIewStopViewController"},
                         @{@"抽屉效果":@"ZWDrawerViewController"},
-                        @{@"进度条效果":@"ZWProcessViewController"}
+                        @{@"进度条效果":@"ZWProcessViewController"},
+                        @{@"画饼图":@"ZWPieViewController"}
                         ];
 }
 

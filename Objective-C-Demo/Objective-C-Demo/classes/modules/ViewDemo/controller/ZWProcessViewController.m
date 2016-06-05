@@ -11,8 +11,9 @@
 @interface ZWProcessViewController ()
 
 /*  */
-@property(nonatomic,strong)ZWProcessView *processView;
-
+@property(nonatomic,strong) ZWProcessView *processView;
+/* 显示label */
+@property(nonatomic,strong) UILabel         *tiplabel;
 @end
 
 static float countIndex = 0.0;
@@ -25,10 +26,7 @@ static float countIndex = 0.0;
     
     //设置标题
     self.title = @"进度条效果";
-    
-    //隐藏返回键
-    [self setLeftItemHiden:NO];
-    
+
     //添加子视图
     [self addChild];
     
@@ -39,20 +37,34 @@ static float countIndex = 0.0;
 -(void)layout
 {
    [self.processView mas_makeConstraints:^(MASConstraintMaker *make) {
-       make.left.mas_equalTo(100);
+       make.centerX.mas_equalTo(self.view.mas_centerX);
        make.top.mas_equalTo(200);
        make.width.height.mas_equalTo(100);
    }];
+    
+    [self.tiplabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(0);
+        make.top.mas_equalTo(400);
+        make.width.mas_equalTo(KScreen_Width);
+        make.height.mas_equalTo(40);
+    }];
 }
 
 #pragma mark - 添加子控件
 -(void)addChild
 {
-    ZWProcessView *v = [[ZWProcessView alloc]initWithFrame:CGRectZero];
+    ZWProcessView *v  = [[ZWProcessView alloc]initWithFrame:CGRectZero];
     v.backgroundColor =[UIColor lightGrayColor];
     v.processColor    = [UIColor greenColor];
     [self.view addSubview:v];
-    self.processView = v;
+    self.processView  = v;
+    
+    //添加显示
+    UILabel *tipLabel = [UILabel new];
+    tipLabel.text     = @"点击屏幕显示";
+    tipLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:tipLabel];
+    self.tiplabel     = tipLabel;
 }
 
 

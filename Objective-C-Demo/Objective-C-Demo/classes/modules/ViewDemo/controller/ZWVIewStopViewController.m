@@ -10,6 +10,7 @@
 #import "ZWDragStopView.h"
 @interface ZWVIewStopViewController ()
 
+@property(nonatomic,strong)ZWDragStopView *dragView;
 @end
 
 @implementation ZWVIewStopViewController
@@ -21,12 +22,34 @@
     //设置标题
     self.title = @"view的停靠";
     
+    //添加子视图
+    [self addChild];
+    
+    //设置布局
+    [self layout];
+
+}
+
+-(void)layout
+{
+    [self.dragView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(50);
+        make.top.mas_equalTo(100);
+        make.width.height.mas_equalTo(50);
+    }];
+}
+
+#pragma mark - 添加子控件
+-(void)addChild
+{
     //创建视图
     ZWDragStopView *dragView=[[ZWDragStopView alloc]initWithFrame:CGRectMake(50, 100, 50, 50)];
     dragView.img = [UIImage imageNamed:@"back"];
     [self.view addSubview:dragView];
-    
+    self.dragView = dragView;
+
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
