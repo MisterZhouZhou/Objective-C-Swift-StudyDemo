@@ -19,6 +19,9 @@
 		A6DEA7C91D03508700FFDD2D /* ZWProcessView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DEA7C81D03508700FFDD2D /* ZWProcessView.m */; };
 		A6E4163C1D03BFCC00E575CE /* ZWPieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E4163B1D03BFCC00E575CE /* ZWPieViewController.m */; };
 		A6E4163F1D03BFDC00E575CE /* ZWPieView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E4163E1D03BFDC00E575CE /* ZWPieView.m */; };
+		A6E416441D03CE5A00E575CE /* ZWBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E416431D03CE5A00E575CE /* ZWBarView.m */; };
+		A6E416471D03EAD000E575CE /* UIColor+Extented.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E416461D03EAD000E575CE /* UIColor+Extented.m */; };
+		A6E4164A1D03EB3500E575CE /* ZWBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E416491D03EB3500E575CE /* ZWBarViewController.m */; };
 		A6F5F7C41D018BCA00664D00 /* ZWAlertBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5F7C31D018BC900664D00 /* ZWAlertBlockViewController.m */; };
 		A6F5F7C71D018C7300664D00 /* ZWAlertUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5F7C61D018C7300664D00 /* ZWAlertUserViewController.m */; };
 		A6F5F7CA1D018CBA00664D00 /* ZWUserAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5F7C91D018CBA00664D00 /* ZWUserAlertView.m */; };
@@ -70,6 +73,12 @@
 		A6E4163B1D03BFCC00E575CE /* ZWPieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPieViewController.m; sourceTree = "<group>"; };
 		A6E4163D1D03BFDC00E575CE /* ZWPieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPieView.h; sourceTree = "<group>"; };
 		A6E4163E1D03BFDC00E575CE /* ZWPieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPieView.m; sourceTree = "<group>"; };
+		A6E416421D03CE5A00E575CE /* ZWBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWBarView.h; sourceTree = "<group>"; };
+		A6E416431D03CE5A00E575CE /* ZWBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWBarView.m; sourceTree = "<group>"; };
+		A6E416451D03EAD000E575CE /* UIColor+Extented.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extented.h"; sourceTree = "<group>"; };
+		A6E416461D03EAD000E575CE /* UIColor+Extented.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extented.m"; sourceTree = "<group>"; };
+		A6E416481D03EB3500E575CE /* ZWBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWBarViewController.h; sourceTree = "<group>"; };
+		A6E416491D03EB3500E575CE /* ZWBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWBarViewController.m; sourceTree = "<group>"; };
 		A6F5F7C21D018BC900664D00 /* ZWAlertBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAlertBlockViewController.h; sourceTree = "<group>"; };
 		A6F5F7C31D018BC900664D00 /* ZWAlertBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWAlertBlockViewController.m; sourceTree = "<group>"; };
 		A6F5F7C51D018C7300664D00 /* ZWAlertUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAlertUserViewController.h; sourceTree = "<group>"; };
@@ -193,6 +202,8 @@
 				A6DEA7C21D0343D800FFDD2D /* ZWVIewStopViewController.m */,
 				A6E4163A1D03BFCC00E575CE /* ZWPieViewController.h */,
 				A6E4163B1D03BFCC00E575CE /* ZWPieViewController.m */,
+				A6E416481D03EB3500E575CE /* ZWBarViewController.h */,
+				A6E416491D03EB3500E575CE /* ZWBarViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -208,6 +219,8 @@
 				A6DEA7C81D03508700FFDD2D /* ZWProcessView.m */,
 				A6E4163D1D03BFDC00E575CE /* ZWPieView.h */,
 				A6E4163E1D03BFDC00E575CE /* ZWPieView.m */,
+				A6E416421D03CE5A00E575CE /* ZWBarView.h */,
+				A6E416431D03CE5A00E575CE /* ZWBarView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -338,6 +351,8 @@
 				A6FF19D21D00148300362809 /* UIColor+expanded.m */,
 				A6FF19CE1D00120000362809 /* UINavigationController+ZWTurnPush.h */,
 				A6FF19CF1D00120000362809 /* UINavigationController+ZWTurnPush.m */,
+				A6E416451D03EAD000E575CE /* UIColor+Extented.h */,
+				A6E416461D03EAD000E575CE /* UIColor+Extented.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -466,9 +481,12 @@
 			files = (
 				A6FF19F41D0016CC00362809 /* MASViewConstraint.m in Sources */,
 				A6DEA7C01D033D3700FFDD2D /* ZWDrawerViewController.m in Sources */,
+				A6E416441D03CE5A00E575CE /* ZWBarView.m in Sources */,
 				A6F5F7CD1D018E2900664D00 /* ZWBaseTableViewController.m in Sources */,
 				A6FF19D01D00120000362809 /* UINavigationController+ZWTurnPush.m in Sources */,
 				A6FF19F31D0016CC00362809 /* MASViewAttribute.m in Sources */,
+				A6E416471D03EAD000E575CE /* UIColor+Extented.m in Sources */,
+				A6E4164A1D03EB3500E575CE /* ZWBarViewController.m in Sources */,
 				A6F5F7C71D018C7300664D00 /* ZWAlertUserViewController.m in Sources */,
 				A6DEA7BD1D03341100FFDD2D /* ZWDragView.m in Sources */,
 				A6FF19CD1D0011F500362809 /* ZWTurnControllerProducter.m in Sources */,

@@ -32,7 +32,8 @@
                         @{@"View的停靠":@"ZWVIewStopViewController"},
                         @{@"抽屉效果":@"ZWDrawerViewController"},
                         @{@"进度条效果":@"ZWProcessViewController"},
-                        @{@"画饼图":@"ZWPieViewController"}
+                        @{@"画饼图":@"ZWPieViewController"},
+                        @{@"画柱状图":@"ZWBarViewController"}
                         ];
 }
 

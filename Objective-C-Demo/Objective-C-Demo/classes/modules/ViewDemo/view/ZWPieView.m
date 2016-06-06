@@ -20,6 +20,9 @@
     for (int i=0; i< arc4random_uniform(10)+1; i++) {
         temp   = arc4random_uniform(totoal)+1;
         [msArray addObject:@(temp)];
+        if (temp == totoal) {
+            break;
+        }
         totoal -= temp;
     }
     if (totoal) {
