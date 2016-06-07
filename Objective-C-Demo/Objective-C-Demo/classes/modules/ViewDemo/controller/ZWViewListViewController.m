@@ -33,7 +33,9 @@
                         @{@"抽屉效果":@"ZWDrawerViewController"},
                         @{@"进度条效果":@"ZWProcessViewController"},
                         @{@"画饼图":@"ZWPieViewController"},
-                        @{@"画柱状图":@"ZWBarViewController"}
+                        @{@"画柱状图":@"ZWBarViewController"},
+                        @{@"绘制分组头像":@"ZWGroupIconViewController"},
+                        @{@"实现点赞功能":@"ZWFlagViewViewController"}
                         ];
 }
 
