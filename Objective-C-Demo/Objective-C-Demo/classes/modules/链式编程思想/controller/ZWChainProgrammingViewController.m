@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"Button功能列表";
+    self.title = @"链式编程思想";
     
     //设置数据
     [self setdata];

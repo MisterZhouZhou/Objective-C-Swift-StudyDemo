@@ -1,46 +1,36 @@
 //
-//  ZWRootViewController.m
+//  ZWReactiveProgrammingViewController.m
 //  Objective-C-Demo
 //
-//  Created by rayootech on 16/6/2.
+//  Created by rayootech on 16/6/8.
 //  Copyright © 2016年 rayootech. All rights reserved.
 //
 
-#import "ZWRootViewController.h"
+#import "ZWReactiveProgrammingViewController.h"
 
-@interface ZWRootViewController ()
+@interface ZWReactiveProgrammingViewController ()
 
 @end
 
-@implementation ZWRootViewController
+@implementation ZWReactiveProgrammingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
-    //设置标题
-    self.title = @"功能列表";
-    
-    //隐藏返回键
-    [self setLeftItemHiden:YES];
+    self.title = @"响应式编程思想";
     
     //设置数据
     [self setdata];
 }
-
 
 #pragma mark - data
 #pragma mark - 设置数据源
 -(void)setdata
 {
     self.dataSource = @[
-                        @{@"AlertView":@"ZWAlertViewController"},
-                        @{@"view Demo":@"ZWViewListViewController"},
-                        @{@"Button":@"ZWButtonListViewController"},
-                        @{@"链式编程思想":@"ZWChainProgrammingViewController"},
-                        @{@"响应式编程思想":@"ZWReactiveProgrammingViewController"}
+                        @{@"响应式编程实现KVO":@"ZWKVOViewController"},
                         ];
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

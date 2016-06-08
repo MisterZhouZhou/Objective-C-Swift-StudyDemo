@@ -37,6 +37,11 @@
 		A6E86B5D1D07B48C00243EF6 /* ZWCaculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E86B5C1D07B48C00243EF6 /* ZWCaculatorViewController.m */; };
 		A6E86B601D07B4EC00243EF6 /* ZWCaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E86B5F1D07B4EC00243EF6 /* ZWCaculatorMaker.m */; };
 		A6E86B631D07B93100243EF6 /* NSObject+Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E86B621D07B93100243EF6 /* NSObject+Caculator.m */; };
+		A6E86B691D07BF5F00243EF6 /* ZWReactiveProgrammingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E86B681D07BF5F00243EF6 /* ZWReactiveProgrammingViewController.m */; };
+		A6E86B6C1D07BFAD00243EF6 /* ZWKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E86B6B1D07BFAD00243EF6 /* ZWKVOViewController.m */; };
+		A6E86B6F1D07C0DB00243EF6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E86B6E1D07C0DB00243EF6 /* Person.m */; };
+		A6E86B721D07C2A200243EF6 /* KVO_Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E86B711D07C2A200243EF6 /* KVO_Person.m */; };
+		A6E86B751D07C33200243EF6 /* NSObject+zw_Kvo.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E86B741D07C33200243EF6 /* NSObject+zw_Kvo.m */; };
 		A6F5F7C41D018BCA00664D00 /* ZWAlertBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5F7C31D018BC900664D00 /* ZWAlertBlockViewController.m */; };
 		A6F5F7C71D018C7300664D00 /* ZWAlertUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5F7C61D018C7300664D00 /* ZWAlertUserViewController.m */; };
 		A6F5F7CA1D018CBA00664D00 /* ZWUserAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5F7C91D018CBA00664D00 /* ZWUserAlertView.m */; };
@@ -124,6 +129,16 @@
 		A6E86B5F1D07B4EC00243EF6 /* ZWCaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCaculatorMaker.m; sourceTree = "<group>"; };
 		A6E86B611D07B93100243EF6 /* NSObject+Caculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Caculator.h"; sourceTree = "<group>"; };
 		A6E86B621D07B93100243EF6 /* NSObject+Caculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Caculator.m"; sourceTree = "<group>"; };
+		A6E86B671D07BF5F00243EF6 /* ZWReactiveProgrammingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWReactiveProgrammingViewController.h; sourceTree = "<group>"; };
+		A6E86B681D07BF5F00243EF6 /* ZWReactiveProgrammingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWReactiveProgrammingViewController.m; sourceTree = "<group>"; };
+		A6E86B6A1D07BFAD00243EF6 /* ZWKVOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWKVOViewController.h; sourceTree = "<group>"; };
+		A6E86B6B1D07BFAD00243EF6 /* ZWKVOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWKVOViewController.m; sourceTree = "<group>"; };
+		A6E86B6D1D07C0DB00243EF6 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A6E86B6E1D07C0DB00243EF6 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A6E86B701D07C2A200243EF6 /* KVO_Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVO_Person.h; sourceTree = "<group>"; };
+		A6E86B711D07C2A200243EF6 /* KVO_Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVO_Person.m; sourceTree = "<group>"; };
+		A6E86B731D07C33200243EF6 /* NSObject+zw_Kvo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+zw_Kvo.h"; sourceTree = "<group>"; };
+		A6E86B741D07C33200243EF6 /* NSObject+zw_Kvo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+zw_Kvo.m"; sourceTree = "<group>"; };
 		A6F5F7C21D018BC900664D00 /* ZWAlertBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAlertBlockViewController.h; sourceTree = "<group>"; };
 		A6F5F7C31D018BC900664D00 /* ZWAlertBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWAlertBlockViewController.m; sourceTree = "<group>"; };
 		A6F5F7C51D018C7300664D00 /* ZWAlertUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAlertUserViewController.h; sourceTree = "<group>"; };
@@ -373,6 +388,39 @@
 			path = view;
 			sourceTree = "<group>";
 		};
+		A6E86B641D07BECD00243EF6 /* 响应式编程思想 */ = {
+			isa = PBXGroup;
+			children = (
+				A6E86B661D07BF0000243EF6 /* view */,
+				A6E86B651D07BEEB00243EF6 /* controller */,
+			);
+			path = "响应式编程思想";
+			sourceTree = "<group>";
+		};
+		A6E86B651D07BEEB00243EF6 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6E86B671D07BF5F00243EF6 /* ZWReactiveProgrammingViewController.h */,
+				A6E86B681D07BF5F00243EF6 /* ZWReactiveProgrammingViewController.m */,
+				A6E86B6A1D07BFAD00243EF6 /* ZWKVOViewController.h */,
+				A6E86B6B1D07BFAD00243EF6 /* ZWKVOViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A6E86B661D07BF0000243EF6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A6E86B6D1D07C0DB00243EF6 /* Person.h */,
+				A6E86B6E1D07C0DB00243EF6 /* Person.m */,
+				A6E86B701D07C2A200243EF6 /* KVO_Person.h */,
+				A6E86B711D07C2A200243EF6 /* KVO_Person.m */,
+				A6E86B731D07C33200243EF6 /* NSObject+zw_Kvo.h */,
+				A6E86B741D07C33200243EF6 /* NSObject+zw_Kvo.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		A6FF19751CFFD03900362809 = {
 			isa = PBXGroup;
 			children = (
@@ -424,6 +472,7 @@
 		A6FF19B71CFFD2E900362809 /* modules */ = {
 			isa = PBXGroup;
 			children = (
+				A6E86B641D07BECD00243EF6 /* 响应式编程思想 */,
 				A6E86B551D07B3CB00243EF6 /* 链式编程思想 */,
 				A6E86B431D07A99F00243EF6 /* Button */,
 				A6E416401D03CAA800E575CE /* RAC */,
@@ -620,6 +669,7 @@
 			files = (
 				A6E86B631D07B93100243EF6 /* NSObject+Caculator.m in Sources */,
 				A6FF19F41D0016CC00362809 /* MASViewConstraint.m in Sources */,
+				A6E86B6F1D07C0DB00243EF6 /* Person.m in Sources */,
 				A6E86B4D1D07AA5E00243EF6 /* ZWBlockButtonViewController.m in Sources */,
 				A6DEA7C01D033D3700FFDD2D /* ZWDrawerViewController.m in Sources */,
 				A63A19F41D06AB7900F35D11 /* ZWViewControl.m in Sources */,
@@ -629,11 +679,13 @@
 				A6FF19D01D00120000362809 /* UINavigationController+ZWTurnPush.m in Sources */,
 				A6FF19F31D0016CC00362809 /* MASViewAttribute.m in Sources */,
 				A6E416471D03EAD000E575CE /* UIColor+Extented.m in Sources */,
+				A6E86B751D07C33200243EF6 /* NSObject+zw_Kvo.m in Sources */,
 				A6E4164A1D03EB3500E575CE /* ZWBarViewController.m in Sources */,
 				A6E86B511D07AAC300243EF6 /* ZWBlockButton.m in Sources */,
 				A6F5F7C71D018C7300664D00 /* ZWAlertUserViewController.m in Sources */,
 				A63A19F31D06AB7900F35D11 /* ZWUIControl.m in Sources */,
 				A6E86B4A1D07AA4000243EF6 /* ZWButtonListViewController.m in Sources */,
+				A6E86B6C1D07BFAD00243EF6 /* ZWKVOViewController.m in Sources */,
 				A6DEA7BD1D03341100FFDD2D /* ZWDragView.m in Sources */,
 				A6FF19CD1D0011F500362809 /* ZWTurnControllerProducter.m in Sources */,
 				A6DEA7C61D03441200FFDD2D /* ZWDragStopView.m in Sources */,
@@ -653,10 +705,12 @@
 				A6F5F7CA1D018CBA00664D00 /* ZWUserAlertView.m in Sources */,
 				A6FF19F21D0016CC00362809 /* MASLayoutConstraint.m in Sources */,
 				A6FF19F01D0016CC00362809 /* MASConstraint.m in Sources */,
+				A6E86B721D07C2A200243EF6 /* KVO_Person.m in Sources */,
 				A6E86B5A1D07B45000243EF6 /* ZWChainProgrammingViewController.m in Sources */,
 				A63A19ED1D06AB4600F35D11 /* UIControlFlagView.m in Sources */,
 				A6DEA7C91D03508700FFDD2D /* ZWProcessView.m in Sources */,
 				A6FF19831CFFD03900362809 /* main.m in Sources */,
+				A6E86B691D07BF5F00243EF6 /* ZWReactiveProgrammingViewController.m in Sources */,
 				A6FF19BD1CFFD4ED00362809 /* ZWBaseViewController.m in Sources */,
 				A6E86B601D07B4EC00243EF6 /* ZWCaculatorMaker.m in Sources */,
 				A6FF19F51D0016CC00362809 /* NSArray+MASAdditions.m in Sources */,
