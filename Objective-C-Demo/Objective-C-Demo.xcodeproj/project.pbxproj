@@ -33,6 +33,10 @@
 		A6E86B4D1D07AA5E00243EF6 /* ZWBlockButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E86B4C1D07AA5E00243EF6 /* ZWBlockButtonViewController.m */; };
 		A6E86B511D07AAC300243EF6 /* ZWBlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E86B501D07AAC300243EF6 /* ZWBlockButton.m */; };
 		A6E86B541D07B04E00243EF6 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E86B531D07B04E00243EF6 /* UIButton+Block.m */; };
+		A6E86B5A1D07B45000243EF6 /* ZWChainProgrammingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E86B591D07B45000243EF6 /* ZWChainProgrammingViewController.m */; };
+		A6E86B5D1D07B48C00243EF6 /* ZWCaculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E86B5C1D07B48C00243EF6 /* ZWCaculatorViewController.m */; };
+		A6E86B601D07B4EC00243EF6 /* ZWCaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E86B5F1D07B4EC00243EF6 /* ZWCaculatorMaker.m */; };
+		A6E86B631D07B93100243EF6 /* NSObject+Caculator.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E86B621D07B93100243EF6 /* NSObject+Caculator.m */; };
 		A6F5F7C41D018BCA00664D00 /* ZWAlertBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5F7C31D018BC900664D00 /* ZWAlertBlockViewController.m */; };
 		A6F5F7C71D018C7300664D00 /* ZWAlertUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5F7C61D018C7300664D00 /* ZWAlertUserViewController.m */; };
 		A6F5F7CA1D018CBA00664D00 /* ZWUserAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F5F7C91D018CBA00664D00 /* ZWUserAlertView.m */; };
@@ -112,6 +116,14 @@
 		A6E86B501D07AAC300243EF6 /* ZWBlockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWBlockButton.m; sourceTree = "<group>"; };
 		A6E86B521D07B04E00243EF6 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
 		A6E86B531D07B04E00243EF6 /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
+		A6E86B581D07B45000243EF6 /* ZWChainProgrammingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWChainProgrammingViewController.h; sourceTree = "<group>"; };
+		A6E86B591D07B45000243EF6 /* ZWChainProgrammingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWChainProgrammingViewController.m; sourceTree = "<group>"; };
+		A6E86B5B1D07B48C00243EF6 /* ZWCaculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCaculatorViewController.h; sourceTree = "<group>"; };
+		A6E86B5C1D07B48C00243EF6 /* ZWCaculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCaculatorViewController.m; sourceTree = "<group>"; };
+		A6E86B5E1D07B4EC00243EF6 /* ZWCaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWCaculatorMaker.h; sourceTree = "<group>"; };
+		A6E86B5F1D07B4EC00243EF6 /* ZWCaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWCaculatorMaker.m; sourceTree = "<group>"; };
+		A6E86B611D07B93100243EF6 /* NSObject+Caculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Caculator.h"; sourceTree = "<group>"; };
+		A6E86B621D07B93100243EF6 /* NSObject+Caculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Caculator.m"; sourceTree = "<group>"; };
 		A6F5F7C21D018BC900664D00 /* ZWAlertBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAlertBlockViewController.h; sourceTree = "<group>"; };
 		A6F5F7C31D018BC900664D00 /* ZWAlertBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWAlertBlockViewController.m; sourceTree = "<group>"; };
 		A6F5F7C51D018C7300664D00 /* ZWAlertUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAlertUserViewController.h; sourceTree = "<group>"; };
@@ -332,6 +344,35 @@
 			path = view;
 			sourceTree = "<group>";
 		};
+		A6E86B551D07B3CB00243EF6 /* 链式编程思想 */ = {
+			isa = PBXGroup;
+			children = (
+				A6E86B571D07B3FA00243EF6 /* view */,
+				A6E86B561D07B3E300243EF6 /* controller */,
+			);
+			path = "链式编程思想";
+			sourceTree = "<group>";
+		};
+		A6E86B561D07B3E300243EF6 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6E86B581D07B45000243EF6 /* ZWChainProgrammingViewController.h */,
+				A6E86B591D07B45000243EF6 /* ZWChainProgrammingViewController.m */,
+				A6E86B5B1D07B48C00243EF6 /* ZWCaculatorViewController.h */,
+				A6E86B5C1D07B48C00243EF6 /* ZWCaculatorViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A6E86B571D07B3FA00243EF6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A6E86B5E1D07B4EC00243EF6 /* ZWCaculatorMaker.h */,
+				A6E86B5F1D07B4EC00243EF6 /* ZWCaculatorMaker.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		A6FF19751CFFD03900362809 = {
 			isa = PBXGroup;
 			children = (
@@ -383,6 +424,7 @@
 		A6FF19B71CFFD2E900362809 /* modules */ = {
 			isa = PBXGroup;
 			children = (
+				A6E86B551D07B3CB00243EF6 /* 链式编程思想 */,
 				A6E86B431D07A99F00243EF6 /* Button */,
 				A6E416401D03CAA800E575CE /* RAC */,
 				A6DEA7A91D03309D00FFDD2D /* ViewDemo */,
@@ -448,6 +490,8 @@
 				A6E416461D03EAD000E575CE /* UIColor+Extented.m */,
 				A6E86B521D07B04E00243EF6 /* UIButton+Block.h */,
 				A6E86B531D07B04E00243EF6 /* UIButton+Block.m */,
+				A6E86B611D07B93100243EF6 /* NSObject+Caculator.h */,
+				A6E86B621D07B93100243EF6 /* NSObject+Caculator.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -574,6 +618,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6E86B631D07B93100243EF6 /* NSObject+Caculator.m in Sources */,
 				A6FF19F41D0016CC00362809 /* MASViewConstraint.m in Sources */,
 				A6E86B4D1D07AA5E00243EF6 /* ZWBlockButtonViewController.m in Sources */,
 				A6DEA7C01D033D3700FFDD2D /* ZWDrawerViewController.m in Sources */,
@@ -608,10 +653,12 @@
 				A6F5F7CA1D018CBA00664D00 /* ZWUserAlertView.m in Sources */,
 				A6FF19F21D0016CC00362809 /* MASLayoutConstraint.m in Sources */,
 				A6FF19F01D0016CC00362809 /* MASConstraint.m in Sources */,
+				A6E86B5A1D07B45000243EF6 /* ZWChainProgrammingViewController.m in Sources */,
 				A63A19ED1D06AB4600F35D11 /* UIControlFlagView.m in Sources */,
 				A6DEA7C91D03508700FFDD2D /* ZWProcessView.m in Sources */,
 				A6FF19831CFFD03900362809 /* main.m in Sources */,
 				A6FF19BD1CFFD4ED00362809 /* ZWBaseViewController.m in Sources */,
+				A6E86B601D07B4EC00243EF6 /* ZWCaculatorMaker.m in Sources */,
 				A6FF19F51D0016CC00362809 /* NSArray+MASAdditions.m in Sources */,
 				A6DEA7B61D03328600FFDD2D /* ZWViewListViewController.m in Sources */,
 				A6FF19F61D0016CC00362809 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
@@ -619,6 +666,7 @@
 				A6E4163C1D03BFCC00E575CE /* ZWPieViewController.m in Sources */,
 				A6FF19D31D00148300362809 /* UIColor+expanded.m in Sources */,
 				A6FF19D61D0014C900362809 /* UIImage+Common.m in Sources */,
+				A6E86B5D1D07B48C00243EF6 /* ZWCaculatorViewController.m in Sources */,
 				A6F5F7C41D018BCA00664D00 /* ZWAlertBlockViewController.m in Sources */,
 				A6DEA7C31D0343D800FFDD2D /* ZWVIewStopViewController.m in Sources */,
 				A6FF19C01CFFD71000362809 /* ZWBaseNavigationController.m in Sources */,

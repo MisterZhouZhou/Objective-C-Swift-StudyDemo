@@ -1,45 +1,36 @@
 //
-//  ZWRootViewController.m
+//  ZWChainProgrammingViewController.m
 //  Objective-C-Demo
 //
-//  Created by rayootech on 16/6/2.
+//  Created by rayootech on 16/6/8.
 //  Copyright © 2016年 rayootech. All rights reserved.
 //
 
-#import "ZWRootViewController.h"
+#import "ZWChainProgrammingViewController.h"
 
-@interface ZWRootViewController ()
+@interface ZWChainProgrammingViewController ()
 
 @end
 
-@implementation ZWRootViewController
+@implementation ZWChainProgrammingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
-    //设置标题
-    self.title = @"功能列表";
-    
-    //隐藏返回键
-    [self setLeftItemHiden:YES];
+    self.title = @"Button功能列表";
     
     //设置数据
     [self setdata];
 }
-
 
 #pragma mark - data
 #pragma mark - 设置数据源
 -(void)setdata
 {
     self.dataSource = @[
-                        @{@"AlertView":@"ZWAlertViewController"},
-                        @{@"view Demo":@"ZWViewListViewController"},
-                        @{@"Button":@"ZWButtonListViewController"},
-                        @{@"链式编程思想":@"ZWChainProgrammingViewController"}
+                        @{@"链式编程实现计算器":@"ZWCaculatorViewController"},
                         ];
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
