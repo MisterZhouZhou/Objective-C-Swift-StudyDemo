@@ -6,11 +6,18 @@
 //  Copyright © 2016年 rayootech. All rights reserved.
 //
 
+
+#if defined(__has_feature) && __has_feature(modules)
+@import UIKit;
+#else
+#import <UIKit/UIKit.h>
+#endif
+
 #ifndef ZWPrefixHeader_pch
 #define ZWPrefixHeader_pch
 
+
 #ifdef __OBJC__
-#import <UIKit/UIKit.h>
 #import "UINavigationController+ZWTurnPush.h"
 #import "Masonry.h"
 
