@@ -11,3 +11,6 @@
 
 ###Swift Demo:
 **************************
+
+* 轮播图效果
+* 基本绘图/CAShapeLayer&UIBezierPath
