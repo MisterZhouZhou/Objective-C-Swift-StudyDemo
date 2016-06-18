@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A61844E71D15307C00178047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61844E61D15307C00178047 /* AppDelegate.swift */; };
+		A61844EC1D15307C00178047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61844EA1D15307C00178047 /* Main.storyboard */; };
+		A61844EE1D15307C00178047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A61844ED1D15307C00178047 /* Assets.xcassets */; };
+		A61844F11D15307C00178047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A61844EF1D15307C00178047 /* LaunchScreen.storyboard */; };
+		A61845151D15309500178047 /* ZWClassFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61844FA1D15309500178047 /* ZWClassFromString.swift */; };
+		A61845161D15309500178047 /* ZWBaseNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61844FD1D15309500178047 /* ZWBaseNavViewController.swift */; };
+		A61845171D15309500178047 /* ZWBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61844FE1D15309500178047 /* ZWBaseViewController.swift */; };
+		A61845191D15309500178047 /* ZWMainRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61845021D15309500178047 /* ZWMainRootViewController.swift */; };
+		A618451A1D15309500178047 /* ZWRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61845031D15309500178047 /* ZWRootViewController.swift */; };
+		A618451B1D15309500178047 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61845081D15309500178047 /* Constraint.swift */; };
+		A618451C1D15309500178047 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61845091D15309500178047 /* ConstraintAttributes.swift */; };
+		A618451D1D15309500178047 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618450A1D15309500178047 /* ConstraintDescription.swift */; };
+		A618451E1D15309500178047 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618450B1D15309500178047 /* ConstraintItem.swift */; };
+		A618451F1D15309500178047 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618450C1D15309500178047 /* ConstraintMaker.swift */; };
+		A61845201D15309500178047 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618450D1D15309500178047 /* ConstraintRelation.swift */; };
+		A61845211D15309500178047 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618450E1D15309500178047 /* Debugging.swift */; };
+		A61845221D15309500178047 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618450F1D15309500178047 /* EdgeInsets.swift */; };
+		A61845231D15309500178047 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61845101D15309500178047 /* LayoutConstraint.swift */; };
+		A61845241D15309500178047 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61845121D15309500178047 /* SnapKit.swift */; };
+		A61845251D15309500178047 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61845131D15309500178047 /* View+SnapKit.swift */; };
+		A61845261D15309500178047 /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61845141D15309500178047 /* ViewController+SnapKit.swift */; };
+		A61845281D15324000178047 /* ZWPushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61845271D15324000178047 /* ZWPushViewController.swift */; };
+		A618452B1D1533C900178047 /* EasyScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618452A1D1533C900178047 /* EasyScrollView.swift */; };
+		A618452E1D15340C00178047 /* ZWCarouselFigureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618452D1D15340C00178047 /* ZWCarouselFigureViewController.swift */; };
+		A61845301D15343400178047 /* ZWEasyScrollViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618452F1D15343400178047 /* ZWEasyScrollViewViewController.swift */; };
+		A61845361D1534B700178047 /* ShapeAndBezierPathDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61845341D1534B700178047 /* ShapeAndBezierPathDetailViewController.swift */; };
+		A61845371D1534B700178047 /* ZWAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61845351D1534B700178047 /* ZWAnimationView.swift */; };
+		A618453C1D1534C100178047 /* DrawCircleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61845391D1534C100178047 /* DrawCircleViewController.swift */; };
+		A618453D1D1534C100178047 /* ShapeAndBezierPathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618453A1D1534C100178047 /* ShapeAndBezierPathViewController.swift */; };
+		A618453F1D1535A100178047 /* ZWAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A618453E1D1535A100178047 /* ZWAnimationViewController.swift */; };
+		A61845641D15371100178047 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = A61845431D15371100178047 /* NSData+ImageContentType.m */; };
+		A61845651D15371100178047 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A61845451D15371100178047 /* SDImageCache.m */; };
+		A61845661D15371100178047 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = A61845471D15371100178047 /* SDWebImageCompat.m */; };
+		A61845671D15371100178047 /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = A61845491D15371100178047 /* SDWebImageDecoder.m */; };
+		A61845681D15371100178047 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = A618454B1D15371100178047 /* SDWebImageDownloader.m */; };
+		A61845691D15371100178047 /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A618454D1D15371100178047 /* SDWebImageDownloaderOperation.m */; };
+		A618456A1D15371100178047 /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A618454F1D15371100178047 /* SDWebImageManager.m */; };
+		A618456B1D15371100178047 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A61845521D15371100178047 /* SDWebImagePrefetcher.m */; };
+		A618456C1D15371100178047 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A61845541D15371100178047 /* UIButton+WebCache.m */; };
+		A618456D1D15371100178047 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = A61845561D15371100178047 /* UIImage+GIF.m */; };
+		A618456E1D15371100178047 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = A61845581D15371100178047 /* UIImage+MultiFormat.m */; };
+		A618456F1D15371100178047 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A618455A1D15371100178047 /* UIImageView+HighlightedWebCache.m */; };
+		A61845701D15371100178047 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = A618455C1D15371100178047 /* UIImageView+WebCache.m */; };
+		A61845711D15371100178047 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A618455E1D15371100178047 /* UIView+WebCacheOperation.m */; };
+		A61845721D15371100178047 /* YLGIFImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A61845611D15371100178047 /* YLGIFImage.m */; };
+		A61845731D15371100178047 /* YLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A61845631D15371100178047 /* YLImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A61844E31D15307C00178047 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61844E61D15307C00178047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A61844EB1D15307C00178047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A61844ED1D15307C00178047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A61844F01D15307C00178047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A61844F21D15307C00178047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A61844FA1D15309500178047 /* ZWClassFromString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZWClassFromString.swift; sourceTree = "<group>"; };
+		A61844FD1D15309500178047 /* ZWBaseNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZWBaseNavViewController.swift; sourceTree = "<group>"; };
+		A61844FE1D15309500178047 /* ZWBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZWBaseViewController.swift; sourceTree = "<group>"; };
+		A61845021D15309500178047 /* ZWMainRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZWMainRootViewController.swift; sourceTree = "<group>"; };
+		A61845031D15309500178047 /* ZWRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZWRootViewController.swift; sourceTree = "<group>"; };
+		A61845081D15309500178047 /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		A61845091D15309500178047 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		A618450A1D15309500178047 /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		A618450B1D15309500178047 /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		A618450C1D15309500178047 /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		A618450D1D15309500178047 /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		A618450E1D15309500178047 /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		A618450F1D15309500178047 /* EdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		A61845101D15309500178047 /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		A61845111D15309500178047 /* SnapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapKit.h; sourceTree = "<group>"; };
+		A61845121D15309500178047 /* SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKit.swift; sourceTree = "<group>"; };
+		A61845131D15309500178047 /* View+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+SnapKit.swift"; sourceTree = "<group>"; };
+		A61845141D15309500178047 /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		A61845271D15324000178047 /* ZWPushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZWPushViewController.swift; sourceTree = "<group>"; };
+		A618452A1D1533C900178047 /* EasyScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyScrollView.swift; sourceTree = "<group>"; };
+		A618452D1D15340C00178047 /* ZWCarouselFigureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZWCarouselFigureViewController.swift; sourceTree = "<group>"; };
+		A618452F1D15343400178047 /* ZWEasyScrollViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZWEasyScrollViewViewController.swift; sourceTree = "<group>"; };
+		A61845341D1534B700178047 /* ShapeAndBezierPathDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeAndBezierPathDetailViewController.swift; sourceTree = "<group>"; };
+		A61845351D1534B700178047 /* ZWAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZWAnimationView.swift; sourceTree = "<group>"; };
+		A61845391D1534C100178047 /* DrawCircleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawCircleViewController.swift; sourceTree = "<group>"; };
+		A618453A1D1534C100178047 /* ShapeAndBezierPathViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeAndBezierPathViewController.swift; sourceTree = "<group>"; };
+		A618453E1D1535A100178047 /* ZWAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZWAnimationViewController.swift; sourceTree = "<group>"; };
+		A61845421D15371100178047 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		A61845431D15371100178047 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		A61845441D15371100178047 /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
+		A61845451D15371100178047 /* SDImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDImageCache.m; sourceTree = "<group>"; };
+		A61845461D15371100178047 /* SDWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageCompat.h; sourceTree = "<group>"; };
+		A61845471D15371100178047 /* SDWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageCompat.m; sourceTree = "<group>"; };
+		A61845481D15371100178047 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDecoder.h; sourceTree = "<group>"; };
+		A61845491D15371100178047 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDecoder.m; sourceTree = "<group>"; };
+		A618454A1D15371100178047 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloader.h; sourceTree = "<group>"; };
+		A618454B1D15371100178047 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloader.m; sourceTree = "<group>"; };
+		A618454C1D15371100178047 /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		A618454D1D15371100178047 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		A618454E1D15371100178047 /* SDWebImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageManager.h; sourceTree = "<group>"; };
+		A618454F1D15371100178047 /* SDWebImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImageManager.m; sourceTree = "<group>"; };
+		A61845501D15371100178047 /* SDWebImageOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImageOperation.h; sourceTree = "<group>"; };
+		A61845511D15371100178047 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		A61845521D15371100178047 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		A61845531D15371100178047 /* UIButton+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WebCache.h"; sourceTree = "<group>"; };
+		A61845541D15371100178047 /* UIButton+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WebCache.m"; sourceTree = "<group>"; };
+		A61845551D15371100178047 /* UIImage+GIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GIF.h"; sourceTree = "<group>"; };
+		A61845561D15371100178047 /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
+		A61845571D15371100178047 /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		A61845581D15371100178047 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		A61845591D15371100178047 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		A618455A1D15371100178047 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		A618455B1D15371100178047 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		A618455C1D15371100178047 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		A618455D1D15371100178047 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		A618455E1D15371100178047 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		A61845601D15371100178047 /* YLGIFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLGIFImage.h; sourceTree = "<group>"; };
+		A61845611D15371100178047 /* YLGIFImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLGIFImage.m; sourceTree = "<group>"; };
+		A61845621D15371100178047 /* YLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLImageView.h; sourceTree = "<group>"; };
+		A61845631D15371100178047 /* YLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLImageView.m; sourceTree = "<group>"; };
+		A61845741D1538B600178047 /* SwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A61844E01D15307C00178047 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A61844DA1D15307C00178047 = {
+			isa = PBXGroup;
+			children = (
+				A61844E51D15307C00178047 /* SwiftDemo */,
+				A61844E41D15307C00178047 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A61844E41D15307C00178047 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A61844E31D15307C00178047 /* SwiftDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A61844E51D15307C00178047 /* SwiftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A61844F81D15309500178047 /* classes */,
+				A61844E61D15307C00178047 /* AppDelegate.swift */,
+				A61844EA1D15307C00178047 /* Main.storyboard */,
+				A61844ED1D15307C00178047 /* Assets.xcassets */,
+				A61844EF1D15307C00178047 /* LaunchScreen.storyboard */,
+				A61844F21D15307C00178047 /* Info.plist */,
+				A61845741D1538B600178047 /* SwiftDemo-Bridging-Header.h */,
+			);
+			path = SwiftDemo;
+			sourceTree = "<group>";
+		};
+		A61844F81D15309500178047 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				A61845401D15371100178047 /* lib */,
+				A61844F91D15309500178047 /* Category */,
+				A61844FB1D15309500178047 /* modules */,
+				A61845051D15309500178047 /* Util */,
+				A61845061D15309500178047 /* Vender */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		A61844F91D15309500178047 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A61844FA1D15309500178047 /* ZWClassFromString.swift */,
+				A61845271D15324000178047 /* ZWPushViewController.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A61844FB1D15309500178047 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				A61845311D15346800178047 /* Animation */,
+				A61844FC1D15309500178047 /* Base */,
+				A61844FF1D15309500178047 /* CarouselFigure */,
+				A61845011D15309500178047 /* Main */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		A61844FC1D15309500178047 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A61844FD1D15309500178047 /* ZWBaseNavViewController.swift */,
+				A61844FE1D15309500178047 /* ZWBaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A61844FF1D15309500178047 /* CarouselFigure */ = {
+			isa = PBXGroup;
+			children = (
+				A618452C1D1533DD00178047 /* controller */,
+				A61845291D1533C900178047 /* views */,
+			);
+			path = CarouselFigure;
+			sourceTree = "<group>";
+		};
+		A61845011D15309500178047 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A61845021D15309500178047 /* ZWMainRootViewController.swift */,
+				A61845031D15309500178047 /* ZWRootViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A61845051D15309500178047 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		A61845061D15309500178047 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				A61845071D15309500178047 /* SnapMasonry */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		A61845071D15309500178047 /* SnapMasonry */ = {
+			isa = PBXGroup;
+			children = (
+				A61845081D15309500178047 /* Constraint.swift */,
+				A61845091D15309500178047 /* ConstraintAttributes.swift */,
+				A618450A1D15309500178047 /* ConstraintDescription.swift */,
+				A618450B1D15309500178047 /* ConstraintItem.swift */,
+				A618450C1D15309500178047 /* ConstraintMaker.swift */,
+				A618450D1D15309500178047 /* ConstraintRelation.swift */,
+				A618450E1D15309500178047 /* Debugging.swift */,
+				A618450F1D15309500178047 /* EdgeInsets.swift */,
+				A61845101D15309500178047 /* LayoutConstraint.swift */,
+				A61845111D15309500178047 /* SnapKit.h */,
+				A61845121D15309500178047 /* SnapKit.swift */,
+				A61845131D15309500178047 /* View+SnapKit.swift */,
+				A61845141D15309500178047 /* ViewController+SnapKit.swift */,
+			);
+			path = SnapMasonry;
+			sourceTree = "<group>";
+		};
+		A61845291D1533C900178047 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A618452A1D1533C900178047 /* EasyScrollView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		A618452C1D1533DD00178047 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A618452D1D15340C00178047 /* ZWCarouselFigureViewController.swift */,
+				A618452F1D15343400178047 /* ZWEasyScrollViewViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A61845311D15346800178047 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				A61845331D1534B700178047 /* views */,
+				A61845321D15349200178047 /* controller */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		A61845321D15349200178047 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				A61845391D1534C100178047 /* DrawCircleViewController.swift */,
+				A618453A1D1534C100178047 /* ShapeAndBezierPathViewController.swift */,
+				A618453E1D1535A100178047 /* ZWAnimationViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		A61845331D1534B700178047 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A61845341D1534B700178047 /* ShapeAndBezierPathDetailViewController.swift */,
+				A61845351D1534B700178047 /* ZWAnimationView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		A61845401D15371100178047 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A61845411D15371100178047 /* SDWebImage */,
+				A618455F1D15371100178047 /* YLGIFImage */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		A61845411D15371100178047 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				A61845421D15371100178047 /* NSData+ImageContentType.h */,
+				A61845431D15371100178047 /* NSData+ImageContentType.m */,
+				A61845441D15371100178047 /* SDImageCache.h */,
+				A61845451D15371100178047 /* SDImageCache.m */,
+				A61845461D15371100178047 /* SDWebImageCompat.h */,
+				A61845471D15371100178047 /* SDWebImageCompat.m */,
+				A61845481D15371100178047 /* SDWebImageDecoder.h */,
+				A61845491D15371100178047 /* SDWebImageDecoder.m */,
+				A618454A1D15371100178047 /* SDWebImageDownloader.h */,
+				A618454B1D15371100178047 /* SDWebImageDownloader.m */,
+				A618454C1D15371100178047 /* SDWebImageDownloaderOperation.h */,
+				A618454D1D15371100178047 /* SDWebImageDownloaderOperation.m */,
+				A618454E1D15371100178047 /* SDWebImageManager.h */,
+				A618454F1D15371100178047 /* SDWebImageManager.m */,
+				A61845501D15371100178047 /* SDWebImageOperation.h */,
+				A61845511D15371100178047 /* SDWebImagePrefetcher.h */,
+				A61845521D15371100178047 /* SDWebImagePrefetcher.m */,
+				A61845531D15371100178047 /* UIButton+WebCache.h */,
+				A61845541D15371100178047 /* UIButton+WebCache.m */,
+				A61845551D15371100178047 /* UIImage+GIF.h */,
+				A61845561D15371100178047 /* UIImage+GIF.m */,
+				A61845571D15371100178047 /* UIImage+MultiFormat.h */,
+				A61845581D15371100178047 /* UIImage+MultiFormat.m */,
+				A61845591D15371100178047 /* UIImageView+HighlightedWebCache.h */,
+				A618455A1D15371100178047 /* UIImageView+HighlightedWebCache.m */,
+				A618455B1D15371100178047 /* UIImageView+WebCache.h */,
+				A618455C1D15371100178047 /* UIImageView+WebCache.m */,
+				A618455D1D15371100178047 /* UIView+WebCacheOperation.h */,
+				A618455E1D15371100178047 /* UIView+WebCacheOperation.m */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		A618455F1D15371100178047 /* YLGIFImage */ = {
+			isa = PBXGroup;
+			children = (
+				A61845601D15371100178047 /* YLGIFImage.h */,
+				A61845611D15371100178047 /* YLGIFImage.m */,
+				A61845621D15371100178047 /* YLImageView.h */,
+				A61845631D15371100178047 /* YLImageView.m */,
+			);
+			path = YLGIFImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A61844E21D15307C00178047 /* SwiftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61844F51D15307C00178047 /* Build configuration list for PBXNativeTarget "SwiftDemo" */;
+			buildPhases = (
+				A61844DF1D15307C00178047 /* Sources */,
+				A61844E01D15307C00178047 /* Frameworks */,
+				A61844E11D15307C00178047 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftDemo;
+			productName = SwiftDemo;
+			productReference = A61844E31D15307C00178047 /* SwiftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A61844DB1D15307C00178047 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = rayootech;
+				TargetAttributes = {
+					A61844E21D15307C00178047 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = A61844DE1D15307C00178047 /* Build configuration list for PBXProject "SwiftDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A61844DA1D15307C00178047;
+			productRefGroup = A61844E41D15307C00178047 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A61844E21D15307C00178047 /* SwiftDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A61844E11D15307C00178047 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61844F11D15307C00178047 /* LaunchScreen.storyboard in Resources */,
+				A61844EE1D15307C00178047 /* Assets.xcassets in Resources */,
+				A61844EC1D15307C00178047 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A61844DF1D15307C00178047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61845691D15371100178047 /* SDWebImageDownloaderOperation.m in Sources */,
+				A61845711D15371100178047 /* UIView+WebCacheOperation.m in Sources */,
+				A618456B1D15371100178047 /* SDWebImagePrefetcher.m in Sources */,
+				A61845701D15371100178047 /* UIImageView+WebCache.m in Sources */,
+				A618451B1D15309500178047 /* Constraint.swift in Sources */,
+				A61845651D15371100178047 /* SDImageCache.m in Sources */,
+				A618456A1D15371100178047 /* SDWebImageManager.m in Sources */,
+				A618452B1D1533C900178047 /* EasyScrollView.swift in Sources */,
+				A61845161D15309500178047 /* ZWBaseNavViewController.swift in Sources */,
+				A618451A1D15309500178047 /* ZWRootViewController.swift in Sources */,
+				A61845261D15309500178047 /* ViewController+SnapKit.swift in Sources */,
+				A61845301D15343400178047 /* ZWEasyScrollViewViewController.swift in Sources */,
+				A61845661D15371100178047 /* SDWebImageCompat.m in Sources */,
+				A618451C1D15309500178047 /* ConstraintAttributes.swift in Sources */,
+				A618456F1D15371100178047 /* UIImageView+HighlightedWebCache.m in Sources */,
+				A61845191D15309500178047 /* ZWMainRootViewController.swift in Sources */,
+				A61845671D15371100178047 /* SDWebImageDecoder.m in Sources */,
+				A61845221D15309500178047 /* EdgeInsets.swift in Sources */,
+				A61845151D15309500178047 /* ZWClassFromString.swift in Sources */,
+				A61845281D15324000178047 /* ZWPushViewController.swift in Sources */,
+				A61845211D15309500178047 /* Debugging.swift in Sources */,
+				A618453D1D1534C100178047 /* ShapeAndBezierPathViewController.swift in Sources */,
+				A61845241D15309500178047 /* SnapKit.swift in Sources */,
+				A61845251D15309500178047 /* View+SnapKit.swift in Sources */,
+				A61845171D15309500178047 /* ZWBaseViewController.swift in Sources */,
+				A618456E1D15371100178047 /* UIImage+MultiFormat.m in Sources */,
+				A61844E71D15307C00178047 /* AppDelegate.swift in Sources */,
+				A61845201D15309500178047 /* ConstraintRelation.swift in Sources */,
+				A61845731D15371100178047 /* YLImageView.m in Sources */,
+				A61845641D15371100178047 /* NSData+ImageContentType.m in Sources */,
+				A618456C1D15371100178047 /* UIButton+WebCache.m in Sources */,
+				A618453C1D1534C100178047 /* DrawCircleViewController.swift in Sources */,
+				A618452E1D15340C00178047 /* ZWCarouselFigureViewController.swift in Sources */,
+				A618456D1D15371100178047 /* UIImage+GIF.m in Sources */,
+				A61845681D15371100178047 /* SDWebImageDownloader.m in Sources */,
+				A618453F1D1535A100178047 /* ZWAnimationViewController.swift in Sources */,
+				A61845361D1534B700178047 /* ShapeAndBezierPathDetailViewController.swift in Sources */,
+				A618451F1D15309500178047 /* ConstraintMaker.swift in Sources */,
+				A61845721D15371100178047 /* YLGIFImage.m in Sources */,
+				A61845371D1534B700178047 /* ZWAnimationView.swift in Sources */,
+				A61845231D15309500178047 /* LayoutConstraint.swift in Sources */,
+				A618451D1D15309500178047 /* ConstraintDescription.swift in Sources */,
+				A618451E1D15309500178047 /* ConstraintItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A61844EA1D15307C00178047 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61844EB1D15307C00178047 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A61844EF1D15307C00178047 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61844F01D15307C00178047 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A61844F31D15307C00178047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A61844F41D15307C00178047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A61844F61D15307C00178047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyyt.SwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemo/SwiftDemo-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		A61844F71D15307C00178047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zyyt.SwiftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftDemo/SwiftDemo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A61844DE1D15307C00178047 /* Build configuration list for PBXProject "SwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61844F31D15307C00178047 /* Debug */,
+				A61844F41D15307C00178047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61844F51D15307C00178047 /* Build configuration list for PBXNativeTarget "SwiftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61844F61D15307C00178047 /* Debug */,
+				A61844F71D15307C00178047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A61844DB1D15307C00178047 /* Project object */;
+}
