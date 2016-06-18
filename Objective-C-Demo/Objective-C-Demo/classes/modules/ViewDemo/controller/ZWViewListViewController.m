@@ -35,7 +35,8 @@
                         @{@"画饼图":@"ZWPieViewController"},
                         @{@"画柱状图":@"ZWBarViewController"},
                         @{@"绘制分组头像":@"ZWGroupIconViewController"},
-                        @{@"实现点赞功能":@"ZWFlagViewViewController"}
+                        @{@"实现点赞功能":@"ZWFlagViewViewController"},
+                        @{@"加载动画":@"ZWLoadViewController"}
                         ];
 }
 

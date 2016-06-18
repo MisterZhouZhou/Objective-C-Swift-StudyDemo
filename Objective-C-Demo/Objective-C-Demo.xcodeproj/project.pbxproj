@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A60EBE1C1D00819200CEFDA1 /* ZWAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A60EBE1B1D00819200CEFDA1 /* ZWAlertView.m */; };
 		A60EBE1F1D0081AE00CEFDA1 /* ZWAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A60EBE1E1D0081AE00CEFDA1 /* ZWAlertViewController.m */; };
+		A61845771D153DA100178047 /* ZWLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A61845761D153DA100178047 /* ZWLoadingView.m */; };
+		A618457A1D153E4A00178047 /* ZWLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A61845791D153E4A00178047 /* ZWLoadViewController.m */; };
 		A63A19E31D06A9A900F35D11 /* ZWGroupIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = A63A19E21D06A9A900F35D11 /* ZWGroupIcon.m */; };
 		A63A19E61D06A9C500F35D11 /* ZWGroupIconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A63A19E51D06A9C500F35D11 /* ZWGroupIconViewController.m */; };
 		A63A19EC1D06AB4600F35D11 /* FlagView.m in Sources */ = {isa = PBXBuildFile; fileRef = A63A19E91D06AB4600F35D11 /* FlagView.m */; };
@@ -73,6 +75,10 @@
 		A60EBE1B1D00819200CEFDA1 /* ZWAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWAlertView.m; sourceTree = "<group>"; };
 		A60EBE1D1D0081AE00CEFDA1 /* ZWAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWAlertViewController.h; sourceTree = "<group>"; };
 		A60EBE1E1D0081AE00CEFDA1 /* ZWAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWAlertViewController.m; sourceTree = "<group>"; };
+		A61845751D153DA100178047 /* ZWLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWLoadingView.h; sourceTree = "<group>"; };
+		A61845761D153DA100178047 /* ZWLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWLoadingView.m; sourceTree = "<group>"; };
+		A61845781D153E4A00178047 /* ZWLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWLoadViewController.h; sourceTree = "<group>"; };
+		A61845791D153E4A00178047 /* ZWLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWLoadViewController.m; sourceTree = "<group>"; };
 		A63A19E11D06A9A900F35D11 /* ZWGroupIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWGroupIcon.h; sourceTree = "<group>"; };
 		A63A19E21D06A9A900F35D11 /* ZWGroupIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWGroupIcon.m; sourceTree = "<group>"; };
 		A63A19E41D06A9C500F35D11 /* ZWGroupIconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWGroupIconViewController.h; sourceTree = "<group>"; };
@@ -290,6 +296,8 @@
 				A63A19E51D06A9C500F35D11 /* ZWGroupIconViewController.m */,
 				A63A19F51D06AB8F00F35D11 /* ZWFlagViewViewController.h */,
 				A63A19F61D06AB8F00F35D11 /* ZWFlagViewViewController.m */,
+				A61845781D153E4A00178047 /* ZWLoadViewController.h */,
+				A61845791D153E4A00178047 /* ZWLoadViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -311,6 +319,8 @@
 				A6E4163E1D03BFDC00E575CE /* ZWPieView.m */,
 				A6E416421D03CE5A00E575CE /* ZWBarView.h */,
 				A6E416431D03CE5A00E575CE /* ZWBarView.m */,
+				A61845751D153DA100178047 /* ZWLoadingView.h */,
+				A61845761D153DA100178047 /* ZWLoadingView.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -703,6 +713,7 @@
 				A6FF19F71D0016CC00362809 /* View+MASAdditions.m in Sources */,
 				A60EBE1F1D0081AE00CEFDA1 /* ZWAlertViewController.m in Sources */,
 				A6F5F7CA1D018CBA00664D00 /* ZWUserAlertView.m in Sources */,
+				A61845771D153DA100178047 /* ZWLoadingView.m in Sources */,
 				A6FF19F21D0016CC00362809 /* MASLayoutConstraint.m in Sources */,
 				A6FF19F01D0016CC00362809 /* MASConstraint.m in Sources */,
 				A6E86B721D07C2A200243EF6 /* KVO_Person.m in Sources */,
@@ -710,6 +721,7 @@
 				A63A19ED1D06AB4600F35D11 /* UIControlFlagView.m in Sources */,
 				A6DEA7C91D03508700FFDD2D /* ZWProcessView.m in Sources */,
 				A6FF19831CFFD03900362809 /* main.m in Sources */,
+				A618457A1D153E4A00178047 /* ZWLoadViewController.m in Sources */,
 				A6E86B691D07BF5F00243EF6 /* ZWReactiveProgrammingViewController.m in Sources */,
 				A6FF19BD1CFFD4ED00362809 /* ZWBaseViewController.m in Sources */,
 				A6E86B601D07B4EC00243EF6 /* ZWCaculatorMaker.m in Sources */,
